@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@layer {
+  .container {
+    @apply mx-auto px-[15px];
+  }
+  .btn {
+    @apply w-[180px] h-[45px] text-white rounded-full cursor-pointer;
+  }
+}
+@theme {
+  --color-main-gray: #4c555c;
+}
+p{
+  color: #B5BBBB;
+}
